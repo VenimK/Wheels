@@ -1,5 +1,5 @@
 {
-  "last_updated_utc": "2026-07-12T06:32:05.872682+00:00",
+  "last_updated_utc": "2026-07-12T08:59:20.185060+00:00",
   "packages": [
     {
       "id": "flashattention",
@@ -3367,6 +3367,546 @@
           ],
           "cxx11_abi": true,
           "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch26.04cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        }
+      ]
+    },
+    {
+      "id": "flashattention3",
+      "name": "Flash Attention 3",
+      "description": "Flash Attention 3 \u2014 optimized for Hopper GPUs (H100/H200), Python 3.9+ compatible (abi3)",
+      "official_repo": "https://github.com/Dao-AILab/flash-attention",
+      "sources": [
+        {
+          "name": "mjun0812 Prebuilt Wheels",
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases"
+        }
+      ],
+      "wheels": [
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.18/flash_attn_3-3.0.0%2Bcu126torch2.12gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.18/flash_attn_3-3.0.0%2Bcu130torch2.12gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "13.2",
+            "13.2"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.18/flash_attn_3-3.0.0%2Bcu132torch2.12gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.13",
+            "2.13"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.47/flash_attn_3-3.0.0%2Bcu126torch2.13gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.13",
+            "2.13"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.47/flash_attn_3-3.0.0%2Bcu130torch2.13gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.13",
+            "2.13"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "13.2",
+            "13.2"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.47/flash_attn_3-3.0.0%2Bcu132torch2.13gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.5",
+            "2.5"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "12.4",
+            "12.4"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.29/flash_attn_3-3.0.0%2Bcu124torch2.5gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "12.4",
+            "12.4"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.29/flash_attn_3-3.0.0%2Bcu124torch2.6gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.29/flash_attn_3-3.0.0%2Bcu126torch2.6gite2743ab-cp39-abi3-linux_x86_64.whl"
+        }
+      ]
+    },
+    {
+      "id": "torchaudio",
+      "name": "Torchaudio",
+      "description": "PyTorch audio processing library \u2014 version must match your installed torch version",
+      "official_repo": "https://github.com/pytorch/audio",
+      "sources": [
+        {
+          "name": "PyPI",
+          "url": "https://pypi.org/project/torchaudio/"
+        }
+      ],
+      "wheels": [
+        {
+          "package_version": "2.9.1",
+          "torch_version": [
+            "2.9.1",
+            "2.9.1"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/c1/ee/d71e6d78d203d72f99c426fbbf2bcd801cf084d8f1891bb1f42c95bc5ec5/torchaudio-2.9.1-cp310-cp310-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.1",
+          "torch_version": [
+            "2.9.1",
+            "2.9.1"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/cb/6f/d8f1f36c9f63ddef78f00f8f8ddb9638128ceb5f6824c28bead5af48fc63/torchaudio-2.9.1-cp311-cp311-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.1",
+          "torch_version": [
+            "2.9.1",
+            "2.9.1"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/fe/0d/b5af1d55ede1ca07769a2cf71256073d8958e2a5521fc734fc19f5343283/torchaudio-2.9.1-cp312-cp312-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.1",
+          "torch_version": [
+            "2.9.1",
+            "2.9.1"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/74/d3/0b090c03cac5a20691507e0945589a696fb10402ccd2457eea47dbf8a71b/torchaudio-2.9.1-cp313-cp313-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.0",
+          "torch_version": [
+            "2.9.0",
+            "2.9.0"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/39/27/75184741da9aa1e94ec136319781e1275a560d1c311a293cc22aba747863/torchaudio-2.9.0-cp310-cp310-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.0",
+          "torch_version": [
+            "2.9.0",
+            "2.9.0"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/f0/41/7aba77bc89d06df993c1519b66b7e0b09661d297d0eb8c044ab2c5af665f/torchaudio-2.9.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.0",
+          "torch_version": [
+            "2.9.0",
+            "2.9.0"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/f0/9c/58b8b49dfba2ae85e41ca86b0c52de45bbbea01987490de219c99c523a58/torchaudio-2.9.0-cp312-cp312-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.0",
+          "torch_version": [
+            "2.9.0",
+            "2.9.0"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/26/db/10ba200f90b76f7b859f46b5ba30cdded69f71bcb0fe3c59bb215532cd2b/torchaudio-2.9.0-cp313-cp313-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/d8/f5/69db76b564263f22c1788cc298ab1c4e2391a79fa8ba7b4a3e76d945292a/torchaudio-2.8.0-cp310-cp310-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/b6/ef/62ac736d8f906cc414181050e08a495a637dab985186c34bd76ea37efbc0/torchaudio-2.8.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/c2/a6/84d80f34472503e9eb82245d7df501c59602d75d7360e717fb9b84f91c5e/torchaudio-2.8.0-cp312-cp312-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/49/df/61941198e9ac6bcebfdd57e1836e4f3c23409308e3d8d7458f0198a6a366/torchaudio-2.8.0-cp313-cp313-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/6b/a4/fab5dbbb2720fc775656b6a81f4daace069ff28a008a73d1b99e0fa995a2/torchaudio-2.8.0-cp39-cp39-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/7d/dc/7569889c1fc95ebf18b0295bc4fdebafbbb89ba9e0018c7e9b0844bae011/torchaudio-2.7.1-cp310-cp310-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/0d/c5/8ba8869ac5607bbd83ea864bda2c628f8b7b55a9200f8147687995e95a49/torchaudio-2.7.1-cp311-cp311-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/48/65/0f46ba74cdc67ea9a8c37c8acfb5194d81639e481e85903c076bcd97188c/torchaudio-2.7.1-cp312-cp312-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/bb/ab/83f282ca5475ae34c58520a4a97b6d69438bc699d70d16432deb19791cda/torchaudio-2.7.1-cp313-cp313-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/37/7b/0bf5da00d883b241bd4986e2d26dc1aabd16cc860c4c5d4bc9237e6350c3/torchaudio-2.7.1-cp39-cp39-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/f2/df/ee0097fc41f718152026541c4c6cdeea830bc09903cc36a53037942a6d3d/torchaudio-2.7.0-cp310-cp310-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/ab/20/1873a49df9f1778c241543eaca14d613d657b9f9351c254952114251cb86/torchaudio-2.7.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/78/98/ec8c7aba67b44cdc59717d4b43d02023ded5da180d33c6469d20bf5bfa3c/torchaudio-2.7.0-cp312-cp312-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/12/02/ad1083f6ce534989c704c3efcd615bdd160934229882aa0a3ea95cd24a9a/torchaudio-2.7.0-cp313-cp313-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/82/1c/f278a0f994f80d1de2f1af092f1e876a4f7d34dc3c9f56d69e4a0dc6c45a/torchaudio-2.7.0-cp39-cp39-manylinux_2_28_x86_64.whl"
         }
       ]
     }
