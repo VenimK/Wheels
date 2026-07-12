@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://wildminder.github.io/AI-windows-whl/sitemap.xml
+Sitemap: https://venimk.github.io/Wheels/sitemap.xml
 
 # Crawl rate optimization
 Crawl-delay: 1
