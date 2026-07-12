@@ -1,14 +1,14 @@
 {
-  "name": "Windows AI Wheels",
+  "name": "AI Wheels",
   "short_name": "AI Wheels",
-  "description": "Browse and download pre-compiled Python wheels for AI/ML libraries on Windows",
+  "description": "Browse and download pre-compiled Python wheels for AI/ML libraries on Linux and macOS",
   "author": "wildminder",
-  "start_url": "/AI-windows-whl/",
+  "start_url": "/Wheels/",
   "display": "standalone",
   "background_color": "#0a0a0f",
   "theme_color": "#0a0a0f",
   "orientation": "portrait-primary",
-  "scope": "/AI-windows-whl/",
+  "scope": "/Wheels/",
   "lang": "en-US",
   "icons": [
     {

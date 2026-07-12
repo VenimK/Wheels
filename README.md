@@ -1,14 +1,14 @@
-# Windows AI Wheels Page
+# AI Wheels (Linux & macOS)
 
-A web application for browsing and installing pre-compiled Python wheel packages for AI/ML libraries on Windows.
+A web application for browsing and installing pre-compiled Python wheel packages for AI/ML libraries on Linux and macOS.
 
-**The main repo with all data is here [AI-windows-whl](https://github.com/wildminder/AI-windows-whl)**
+**The main repo with all data is here [Wheels](https://github.com/VenimK/Wheels)**
 
 ## Overview
 
-This application provides a searchable interface for finding and installing Python wheels compiled for Windows with CUDA support. It helps developers quickly locate compatible packages for their specific environment configurations.
+This application provides a searchable interface for finding and installing Python wheels compiled for Linux with CUDA support (macOS support planned). It helps developers quickly locate compatible packages for their specific environment configurations.
 
-**Live Site**: [https://wildminder.github.io/AI-windows-whl/](https://wildminder.github.io/AI-windows-whl/)
+**Live Site**: [https://venimk.github.io/Wheels/](https://venimk.github.io/Wheels/)
 
 ## Features
 
@@ -98,7 +98,7 @@ npm run build
 
 Wheel data is fetched from:
 - Primary: Local `wheels.json` (if available)
-- Fallback: [GitHub raw URL](https://raw.githubusercontent.com/wildminder/AI-windows-whl/main/wheels.json)
+- Fallback: [GitHub raw URL](https://raw.githubusercontent.com/VenimK/Wheels/main/wheels.json)
 
 ### JSON Schema
 
@@ -149,7 +149,7 @@ Requires ES2020 support.
 
 ## Related Repository
 
-- **Wheel Data**: [wildminder/AI-windows-whl](https://github.com/wildminder/AI-windows-whl) - Contains the `wheels.json` data file and wheel hosting
+- **Wheel Data**: [VenimK/Wheels](https://github.com/VenimK/Wheels) - Contains the `wheels.json` data file and wheel hosting
 
 ## License
 
@@ -157,5 +157,5 @@ This project is provided under the Apache License 2.0.
 
 ## Author
 
-**wildminder** - [GitHub](https://github.com/wildminder) | [HuggingFace](https://huggingface.co/Wildminder)
+**VenimK** - [GitHub](https://github.com/VenimK)
 

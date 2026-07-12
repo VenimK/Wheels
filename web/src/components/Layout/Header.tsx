@@ -10,9 +10,9 @@ export function Header(): JSX.Element {
       <div className="flex items-center justify-between h-16">
         {/* Logo */}
         <a
-          href="https://wildminder.github.io/AI-windows-whl/"
+          href="https://venimk.github.io/Wheels/"
           className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-primary/50 rounded-lg p-1"
-          aria-label="Windows AI Wheels - Home"
+          aria-label="AI Wheels - Home"
         >
           <div className="relative" aria-hidden="true">
             {animationsEnabled && (
@@ -24,7 +24,7 @@ export function Header(): JSX.Element {
           </div>
           <div className="flex flex-col">
             <span className="font-display font-bold text-lg tracking-wider text-text-primary group-hover:text-primary transition-colors">
-              WINDOWS AI WHEELS
+              AI WHEELS
             </span>
             <span className="text-2xs font-mono text-primary/70 tracking-widest">
               PRE-COMPILED PACKAGES
@@ -68,7 +68,7 @@ export function Header(): JSX.Element {
 
           {/* GitHub Link */}
           <a
-            href="https://github.com/wildminder/AI-windows-whl"
+            href="https://github.com/VenimK/Wheels"
             target="_blank"
             rel="noopener noreferrer"
             className="select-none flex items-center gap-2 px-4 py-2 text-sm font-medium text-text-secondary 

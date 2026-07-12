@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
-  base: '/AI-windows-whl/',
+  base: '/Wheels/',
   plugins: [
     react(),
     // Handle inline styles in HTML for Vite 7 compatibility

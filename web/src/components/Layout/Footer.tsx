@@ -39,7 +39,7 @@ export function Footer({ data }: FooterProps): JSX.Element {
             ) : (
               <Heart className="w-4 h-4 text-secondary fill-secondary" aria-hidden="true" />
             )}
-            <span className="font-mono">for the Windows AI community</span>
+            <span className="font-mono">for the AI community</span>
           </motion.div>
 
           {/* Right side - Last updated */}

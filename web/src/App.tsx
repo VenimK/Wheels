@@ -116,7 +116,7 @@ export function App(): JSX.Element {
         id="main-content"
         className="relative z-10 flex-1 w-full px-4 sm:px-6 lg:px-8 py-6"
         role="main"
-        aria-label="Windows AI Wheels Package Browser"
+        aria-label="AI Wheels Package Browser"
       >
         <div className="max-w-6xl mx-auto space-y-6">
           {/* Hero Section */}
@@ -127,7 +127,7 @@ export function App(): JSX.Element {
             role="banner"
           >
             <h1 className="font-display text-2xl sm:text-3xl font-bold text-text-primary">
-              Find Windows AI Wheels
+              Find AI Wheels
             </h1>
             <p className="text-text-secondary max-w-lg mx-auto">
               Quick-search pre-compiled Python packages for your environment

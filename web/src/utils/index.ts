@@ -1,11 +1,11 @@
 import type { Package, Wheel, WheelsData, FilterOptions, VersionRange } from '@/types';
 
 const GITHUB_WHEELS_URL =
-  'https://raw.githubusercontent.com/wildminder/AI-windows-whl/main/wheels.json';
+  'https://raw.githubusercontent.com/VenimK/Wheels/main/wheels.json';
 const LOCAL_WHEELS_PATH = './wheels.json';
 const LOCAL_VERSION_PATH = './version.txt';
 const GITHUB_VERSION_URL =
-  'https://raw.githubusercontent.com/wildminder/AI-windows-whl/main/version.txt';
+  'https://raw.githubusercontent.com/VenimK/Wheels/main/version.txt';
 
 // Cache for version timestamp to avoid multiple fetches
 let cachedVersionTimestamp: string | null | undefined = undefined;
