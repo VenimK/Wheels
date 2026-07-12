@@ -15,6 +15,7 @@ export interface Wheel {
   python_version: VersionRange;
   cuda_version: VersionRange;
   cxx11_abi: boolean;
+  platform?: string;
   url: string;
 }
 
@@ -37,6 +38,7 @@ export interface FilterOptions {
   pythonVersion?: string;
   torchVersion?: string;
   cudaVersion?: string;
+  platform?: string;
   packageId?: string;
 }
 
@@ -45,5 +47,6 @@ export interface FilterState {
   pythonVersion: string | null;
   torchVersion: string | null;
   cudaVersion: string | null;
+  platform: string | null;
   selectedPackage: string | null;
 }

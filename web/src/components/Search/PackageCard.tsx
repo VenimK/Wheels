@@ -10,6 +10,7 @@ interface PackageCardProps {
   pythonVersion: string | null;
   torchVersion: string | null;
   cudaVersion: string | null;
+  platform?: string | null;
   isActive: boolean;
   matchingCount: number;
 }
@@ -148,6 +149,7 @@ export function PackageCard({
   pythonVersion,
   torchVersion,
   cudaVersion,
+  platform,
   isActive,
   matchingCount,
 }: PackageCardProps): JSX.Element {
@@ -205,6 +207,7 @@ export function PackageCard({
               initialPython={pythonVersion}
               initialTorch={torchVersion}
               initialCuda={cudaVersion}
+              initialPlatform={platform}
             />
           )}
         </AnimatePresence>
@@ -340,6 +343,7 @@ export function PackageCard({
             initialPython={pythonVersion}
             initialTorch={torchVersion}
             initialCuda={cudaVersion}
+            initialPlatform={platform}
           />
         )}
       </AnimatePresence>

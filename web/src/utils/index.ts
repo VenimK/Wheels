@@ -119,7 +119,7 @@ export async function loadWheelsData(): Promise<WheelsData> {
 }
 
 export function filterWheels(packages: Package[], options: FilterOptions): Package[] {
-  const { searchQuery, pythonVersion, torchVersion, cudaVersion, packageId } = options;
+  const { searchQuery, pythonVersion, torchVersion, cudaVersion, platform, packageId } = options;
 
   return packages
     .map((pkg) => {
@@ -140,6 +140,12 @@ export function filterWheels(packages: Package[], options: FilterOptions): Packa
       if (cudaVersion) {
         filteredWheels = filteredWheels.filter((w) =>
           versionMatchesFilter(w.cuda_version, cudaVersion),
+        );
+      }
+
+      if (platform) {
+        filteredWheels = filteredWheels.filter((w) =>
+          (w.platform ?? 'linux_x86_64') === platform,
         );
       }
 
@@ -289,17 +295,27 @@ export function extractUniqueVersions(packages: Package[]): {
   pythonVersions: string[];
   torchVersions: string[];
   cudaVersions: string[];
+  platforms: string[];
 } {
   const pythonVersions = new Set<string>();
   const torchVersions = new Set<string>();
   const cudaVersions = new Set<string>();
+  const platforms = new Set<string>();
 
   packages.forEach((pkg) => {
     pkg.wheels.forEach((wheel) => {
       // Extract concrete versions from VersionRange
       extractConcreteVersions(wheel.python_version).forEach((v) => pythonVersions.add(v));
-      extractConcreteVersions(wheel.torch_version).forEach((v) => torchVersions.add(v));
-      extractConcreteVersions(wheel.cuda_version).forEach((v) => cudaVersions.add(v));
+      // Skip 'any' torch versions (used by MLX)
+      extractConcreteVersions(wheel.torch_version)
+        .filter((v) => v !== 'any')
+        .forEach((v) => torchVersions.add(v));
+      // Skip 'none' and 'any' CUDA versions (macOS wheels)
+      extractConcreteVersions(wheel.cuda_version)
+        .filter((v) => v !== 'none' && v !== 'any')
+        .forEach((v) => cudaVersions.add(v));
+      // Collect platforms; wheels without platform field are linux_x86_64
+      platforms.add(wheel.platform ?? 'linux_x86_64');
     });
   });
 
@@ -307,6 +323,7 @@ export function extractUniqueVersions(packages: Package[]): {
     pythonVersions: sortVersions(Array.from(pythonVersions)),
     torchVersions: sortVersions(Array.from(torchVersions)),
     cudaVersions: sortVersions(Array.from(cudaVersions)),
+    platforms: Array.from(platforms).sort(),
   };
 }
 

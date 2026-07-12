@@ -1,18 +1,21 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Cpu, Zap, Box, X, ChevronDown } from 'lucide-react';
+import { Cpu, Zap, Box, Monitor, X, ChevronDown } from 'lucide-react';
 import { usePerformance } from '@/hooks/usePerformance';
 
 interface ControlPanelProps {
   pythonVersions: string[];
   torchVersions: string[];
   cudaVersions: string[];
+  platforms: string[];
   selectedPython: string | null;
   selectedTorch: string | null;
   selectedCuda: string | null;
+  selectedPlatform: string | null;
   onPythonChange: (v: string | null) => void;
   onTorchChange: (v: string | null) => void;
   onCudaChange: (v: string | null) => void;
+  onPlatformChange: (v: string | null) => void;
   onClear: () => void;
 }
 
@@ -241,19 +244,27 @@ function VersionSection({
   );
 }
 
+const PLATFORM_LABELS: Record<string, string> = {
+  linux_x86_64: 'Linux x86_64',
+  macos_arm64: 'macOS arm64',
+};
+
 export function ControlPanel({
   pythonVersions,
   torchVersions,
   cudaVersions,
+  platforms,
   selectedPython,
   selectedTorch,
   selectedCuda,
+  selectedPlatform,
   onPythonChange,
   onTorchChange,
   onCudaChange,
+  onPlatformChange,
   onClear,
 }: ControlPanelProps): JSX.Element {
-  const hasFilters = selectedPython || selectedTorch || selectedCuda;
+  const hasFilters = selectedPython || selectedTorch || selectedCuda || selectedPlatform;
   const { animationsEnabled } = usePerformance();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -349,6 +360,57 @@ export function ControlPanel({
           aria-label="CUDA version filter"
         />
       </div>
+
+      {/* Platform filter row - only shown when multiple platforms exist */}
+      {platforms.length > 1 && (
+        <div className="mt-4 pt-4 border-t border-border/50">
+          <fieldset
+            className="flex flex-wrap items-center gap-3"
+            role="group"
+            aria-label="Platform filter"
+          >
+            <legend className="flex items-center gap-2 text-xs font-mono text-accent-green uppercase tracking-wider mr-1">
+              <Monitor className="w-4 h-4" aria-hidden="true" />
+              <span>Platform</span>
+            </legend>
+            <div className="flex flex-wrap gap-1.5" role="radiogroup" aria-label="Select platform">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => onPlatformChange(null)}
+                className={`select-none px-2 py-1 text-xs font-mono rounded border transition-all whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-current ${
+                  selectedPlatform === null
+                    ? 'text-accent-green bg-accent-green/10 border-accent-green'
+                    : 'text-text-muted border-border hover:border-text-muted'
+                }`}
+                role="radio"
+                aria-checked={selectedPlatform === null}
+                aria-label="Any platform"
+              >
+                Any
+              </motion.button>
+              {platforms.map((p) => (
+                <motion.button
+                  key={p}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={() => onPlatformChange(selectedPlatform === p ? null : p)}
+                  className={`select-none px-2 py-1 text-xs font-mono rounded border transition-all whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-current ${
+                    selectedPlatform === p
+                      ? 'text-accent-green bg-accent-green/10 border-accent-green shadow-[0_0_10px_currentColor]'
+                      : 'text-text-secondary border-border hover:border-text-secondary'
+                  }`}
+                  role="radio"
+                  aria-checked={selectedPlatform === p}
+                  aria-label={`Platform ${PLATFORM_LABELS[p] ?? p}`}
+                >
+                  {PLATFORM_LABELS[p] ?? p}
+                </motion.button>
+              ))}
+            </div>
+          </fieldset>
+        </div>
+      )}
     </section>
   );
 }

@@ -8,6 +8,7 @@ import {
   Cpu,
   Zap,
   Box,
+  Monitor,
   AlertCircle,
   Download,
 } from 'lucide-react';
@@ -21,12 +22,18 @@ import {
   versionMatchesFilter,
 } from '@/utils';
 
+const PLATFORM_LABELS: Record<string, string> = {
+  linux_x86_64: 'Linux x86_64',
+  macos_arm64: 'macOS arm64',
+};
+
 interface PackageDetailsProps {
   package: PackageType;
   onClose: () => void;
   initialPython: string | null;
   initialTorch: string | null;
   initialCuda: string | null;
+  initialPlatform?: string | null;
 }
 
 // Parse version string into comparable components
@@ -242,6 +249,7 @@ export function PackageDetails({
   initialPython,
   initialTorch,
   initialCuda,
+  initialPlatform,
 }: PackageDetailsProps): JSX.Element {
   // Initialize from props (main page filters) - no auto-select
   const [selectedPython, setSelectedPython] = useState<string | null>(
@@ -252,6 +260,9 @@ export function PackageDetails({
   );
   const [selectedCuda, setSelectedCuda] = useState<string | null>(
     initialCuda ? normalizeVersion(initialCuda) : null,
+  );
+  const [selectedPlatform, setSelectedPlatform] = useState<string | null>(
+    initialPlatform ?? null,
   );
   const [copiedCommand, setCopiedCommand] = useState<string | null>(null);
   const [copiedUrl, setCopiedUrl] = useState<string | null>(null);
@@ -372,6 +383,13 @@ export function PackageDetails({
     };
   }, []);
 
+  // Unique platforms present in this package
+  const platforms = useMemo(() => {
+    const set = new Set<string>();
+    sortedWheels.forEach((w) => set.add(w.platform ?? 'linux_x86_64'));
+    return Array.from(set).sort();
+  }, [sortedWheels]);
+
   // Version change handlers
   const handlePythonChange = (val: string | null) => setSelectedPython(val);
   const handleTorchChange = (val: string | null) => setSelectedTorch(val);
@@ -383,9 +401,10 @@ export function PackageDetails({
       if (selectedPython && !versionMatchesFilter(w.python_version, selectedPython)) return false;
       if (selectedTorch && !versionMatchesFilter(w.torch_version, selectedTorch)) return false;
       if (selectedCuda && !versionMatchesFilter(w.cuda_version, selectedCuda)) return false;
+      if (selectedPlatform && (w.platform ?? 'linux_x86_64') !== selectedPlatform) return false;
       return true;
     });
-  }, [sortedWheels, selectedPython, selectedTorch, selectedCuda]);
+  }, [sortedWheels, selectedPython, selectedTorch, selectedCuda, selectedPlatform]);
 
   const handleCopy = async (wheel: Wheel) => {
     const cmd = generateInstallCommand(wheel);
@@ -500,6 +519,50 @@ export function PackageDetails({
                 aria-label="CUDA version selector"
               />
             </fieldset>
+
+            {/* Platform row - only shown when package has multiple platforms */}
+            {platforms.length > 1 && (
+              <div
+                className="flex flex-wrap items-center gap-3 px-4 py-3 bg-background rounded-xl border border-border/50"
+                role="group"
+                aria-label="Platform filter"
+              >
+                <span className="flex items-center gap-1.5 text-2xs font-mono text-accent-green uppercase">
+                  <Monitor className="w-3 h-3" aria-hidden="true" />
+                  Platform
+                </span>
+                <div className="flex flex-wrap gap-1.5" role="radiogroup" aria-label="Select platform">
+                  <button
+                    onClick={() => setSelectedPlatform(null)}
+                    className={`select-none px-2 py-1 text-xs font-mono rounded border transition-all focus:outline-none focus:ring-2 focus:ring-current ${
+                      selectedPlatform === null
+                        ? 'text-accent-green bg-accent-green/10 border-accent-green'
+                        : 'bg-surface border-border text-text-secondary hover:border-text-secondary'
+                    }`}
+                    role="radio"
+                    aria-checked={selectedPlatform === null}
+                  >
+                    Any
+                  </button>
+                  {platforms.map((p) => (
+                    <button
+                      key={p}
+                      onClick={() => setSelectedPlatform(selectedPlatform === p ? null : p)}
+                      className={`select-none px-2 py-1 text-xs font-mono rounded border transition-all focus:outline-none focus:ring-2 focus:ring-current ${
+                        selectedPlatform === p
+                          ? 'text-accent-green bg-accent-green/10 border-accent-green shadow-[0_0_10px_currentColor]'
+                          : 'bg-surface border-border text-text-secondary hover:border-text-secondary'
+                      }`}
+                      role="radio"
+                      aria-checked={selectedPlatform === p}
+                      aria-label={`Platform ${PLATFORM_LABELS[p] ?? p}`}
+                    >
+                      {PLATFORM_LABELS[p] ?? p}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Results */}
@@ -549,28 +612,37 @@ export function PackageDetails({
                           RECOMMENDED
                         </span>
                       )}
-                      <div className="flex items-center gap-3 text-sm">
+                      <div className="flex flex-wrap items-center gap-3 text-sm">
                         <span className="font-mono font-semibold text-text-primary">
                           v{wheel.package_version}
                         </span>
-                        <span className="text-text-muted" aria-hidden="true">
-                          •
-                        </span>
+                        <span className="text-text-muted" aria-hidden="true">•</span>
                         <span className="font-mono text-primary">
                           {formatVersion(wheel.python_version)}
                         </span>
-                        <span className="text-text-muted" aria-hidden="true">
-                          •
-                        </span>
+                        <span className="text-text-muted" aria-hidden="true">•</span>
                         <span className="font-mono text-secondary">
                           {formatVersion(wheel.torch_version)}
                         </span>
-                        <span className="text-text-muted" aria-hidden="true">
-                          •
-                        </span>
+                        <span className="text-text-muted" aria-hidden="true">•</span>
                         <span className="font-mono text-accent-yellow">
                           {formatVersion(wheel.cuda_version)}
                         </span>
+                        {platforms.length > 1 && (
+                          <>
+                            <span className="text-text-muted" aria-hidden="true">•</span>
+                            <span
+                              className={`px-1.5 py-0.5 text-2xs font-mono rounded border ${
+                                (wheel.platform ?? 'linux_x86_64') === 'macos_arm64'
+                                  ? 'text-accent-green border-accent-green/40 bg-accent-green/10'
+                                  : 'text-text-muted border-border/50 bg-surface-light'
+                              }`}
+                              aria-label={`Platform: ${PLATFORM_LABELS[wheel.platform ?? 'linux_x86_64'] ?? wheel.platform ?? 'linux_x86_64'}`}
+                            >
+                              {PLATFORM_LABELS[wheel.platform ?? 'linux_x86_64'] ?? wheel.platform ?? 'linux'}
+                            </span>
+                          </>
+                        )}
                       </div>
                     </div>
                     <div className="flex items-center gap-2">

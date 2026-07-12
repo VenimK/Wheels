@@ -15,10 +15,11 @@ export function App(): JSX.Element {
   const [selectedPython, setSelectedPython] = useState<string | null>(null);
   const [selectedTorch, setSelectedTorch] = useState<string | null>(null);
   const [selectedCuda, setSelectedCuda] = useState<string | null>(null);
+  const [selectedPlatform, setSelectedPlatform] = useState<string | null>(null);
 
   const packages = useMemo(() => data?.packages ?? [], [data]);
 
-  const { pythonVersions, torchVersions, cudaVersions } = useMemo(
+  const { pythonVersions, torchVersions, cudaVersions, platforms } = useMemo(
     () => extractUniqueVersions(packages),
     [packages],
   );
@@ -44,6 +45,7 @@ export function App(): JSX.Element {
     setSelectedPython(null);
     setSelectedTorch(null);
     setSelectedCuda(null);
+    setSelectedPlatform(null);
     setQuery('');
   };
 
@@ -155,12 +157,15 @@ export function App(): JSX.Element {
               pythonVersions={pythonVersions}
               torchVersions={torchVersions}
               cudaVersions={cudaVersions}
+              platforms={platforms}
               selectedPython={selectedPython}
               selectedTorch={selectedTorch}
               selectedCuda={selectedCuda}
+              selectedPlatform={selectedPlatform}
               onPythonChange={setSelectedPython}
               onTorchChange={setSelectedTorch}
               onCudaChange={setSelectedCuda}
+              onPlatformChange={setSelectedPlatform}
               onClear={handleClearFilters}
             />
           </motion.div>
@@ -175,7 +180,7 @@ export function App(): JSX.Element {
                 {filteredPackages.length !== 1 ? 's' : ''} available
               </span>
             </div>
-            {(selectedPython || selectedTorch || selectedCuda) && (
+            {(selectedPython || selectedTorch || selectedCuda || selectedPlatform) && (
               <span className="text-xs font-mono text-text-muted">
                 Click a package to see matching wheels
               </span>
@@ -208,6 +213,8 @@ export function App(): JSX.Element {
                         return false;
                       if (selectedTorch && !w.torch_version?.includes(selectedTorch)) return false;
                       if (selectedCuda && !w.cuda_version?.includes(selectedCuda)) return false;
+                      if (selectedPlatform && (w.platform ?? 'linux_x86_64') !== selectedPlatform)
+                        return false;
                       return true;
                     });
                     return {
@@ -228,6 +235,7 @@ export function App(): JSX.Element {
                         pythonVersion={selectedPython}
                         torchVersion={selectedTorch}
                         cudaVersion={selectedCuda}
+                        platform={selectedPlatform}
                         isActive={isActive}
                         matchingCount={matchingCount}
                       />
