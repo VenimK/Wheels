@@ -1,0 +1,5268 @@
+{
+  "last_updated_utc": "2026-07-12T09:06:56.529542+00:00",
+  "packages": [
+    {
+      "id": "flashattention",
+      "name": "Flash Attention",
+      "description": "Fast and memory-efficient exact attention",
+      "official_repo": "https://github.com/Dao-AILab/flash-attention",
+      "sources": [
+        {
+          "name": "Dao-AILab GitHub Releases",
+          "url": "https://github.com/Dao-AILab/flash-attention/releases"
+        }
+      ],
+      "wheels": [
+        {
+          "package_version": "2.8.3",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3%2Bcu13torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.4",
+            "2.4"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.4cxx11abiFALSE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.4",
+            "2.4"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.4cxx11abiFALSE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.4",
+            "2.4"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.4cxx11abiFALSE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.4",
+            "2.4"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.4cxx11abiFALSE-cp39-cp39-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.4",
+            "2.4"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.4cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.4",
+            "2.4"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.4cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.4",
+            "2.4"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.4cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.4",
+            "2.4"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.4cxx11abiTRUE-cp39-cp39-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.5",
+            "2.5"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.5cxx11abiFALSE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.5",
+            "2.5"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.5cxx11abiFALSE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.5",
+            "2.5"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.5cxx11abiFALSE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.5",
+            "2.5"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.5cxx11abiFALSE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.5",
+            "2.5"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.5cxx11abiFALSE-cp39-cp39-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.5",
+            "2.5"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.5cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.5",
+            "2.5"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.5cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.5",
+            "2.5"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.5cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.5",
+            "2.5"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.5cxx11abiTRUE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.5",
+            "2.5"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.5cxx11abiTRUE-cp39-cp39-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.6cxx11abiFALSE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.6cxx11abiFALSE-cp39-cp39-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.6cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.6cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.6cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.6cxx11abiTRUE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.6cxx11abiTRUE-cp39-cp39-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.7cxx11abiFALSE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.7cxx11abiFALSE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.7cxx11abiFALSE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.7cxx11abiFALSE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.7cxx11abiFALSE-cp39-cp39-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.7cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.7cxx11abiTRUE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.7cxx11abiTRUE-cp39-cp39-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.8cxx11abiFALSE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.8cxx11abiFALSE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.8cxx11abiFALSE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.8cxx11abiFALSE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.8cxx11abiFALSE-cp39-cp39-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.8cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.8cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.8cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.8cxx11abiTRUE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.3.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/flash-attention/releases/download/v2.8.3.post1/flash_attn-2.8.3.post1%2Bcu12torch2.8cxx11abiTRUE-cp39-cp39-linux_x86_64.whl"
+        }
+      ]
+    },
+    {
+      "id": "nunchaku",
+      "name": "Nunchaku",
+      "description": "SVDQuant: 4-Bit Diffusion Models via Low-Rank Outlier Absorption",
+      "official_repo": "https://github.com/mit-han-lab/nunchaku",
+      "sources": [
+        {
+          "name": "nunchaku-ai GitHub Releases",
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases"
+        }
+      ],
+      "wheels": [
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.10-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.10-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.10-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.10-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.11-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.11-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.11-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.11-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.8-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.8-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.8-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.8-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.9-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.9-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.9-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu12.8torch2.9-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu13.0torch2.10-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu13.0torch2.10-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu13.0torch2.10-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu13.0torch2.10-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu13.0torch2.11-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu13.0torch2.11-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu13.0torch2.11-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu13.0torch2.11-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu13.0torch2.9-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu13.0torch2.9-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu13.0torch2.9-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.2.1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/nunchaku-ai/nunchaku/releases/download/v1.2.1/nunchaku-1.2.1%2Bcu13.0torch2.9-cp313-cp313-linux_x86_64.whl"
+        }
+      ]
+    },
+    {
+      "id": "sageattention",
+      "name": "SageAttention",
+      "description": "Accurate and efficient attention for Linux/CUDA",
+      "official_repo": "https://github.com/thu-ml/SageAttention",
+      "sources": [
+        {
+          "name": "snw35/sageattention-wheel (Linux)",
+          "url": "https://github.com/snw35/sageattention-wheel/releases"
+        }
+      ],
+      "wheels": [
+        {
+          "package_version": "2.2.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "url": "https://github.com/snw35/sageattention-wheel/releases/download/cu12-2.2.0-cu13-2.2.0/sageattention-2.2.0%2Bcu12-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.2.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "url": "https://github.com/snw35/sageattention-wheel/releases/download/cu12-2.2.0-cu13-2.2.0/sageattention-2.2.0%2Bcu12-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.2.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "url": "https://github.com/snw35/sageattention-wheel/releases/download/cu12-2.2.0-cu13-2.2.0/sageattention-2.2.0%2Bcu12-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.2.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "url": "https://github.com/snw35/sageattention-wheel/releases/download/cu12-2.2.0-cu13-2.2.0/sageattention-2.2.0%2Bcu12-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.2.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "url": "https://github.com/snw35/sageattention-wheel/releases/download/cu12-2.2.0-cu13-2.2.0/sageattention-2.2.0%2Bcu12-cp314-cp314-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.2.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "url": "https://github.com/snw35/sageattention-wheel/releases/download/cu12-2.2.0-cu13-2.2.0/sageattention-2.2.0%2Bcu12-cp39-cp39-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.2.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "url": "https://github.com/snw35/sageattention-wheel/releases/download/cu12-2.2.0-cu13-2.2.0/sageattention-2.2.0%2Bcu13-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.2.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "url": "https://github.com/snw35/sageattention-wheel/releases/download/cu12-2.2.0-cu13-2.2.0/sageattention-2.2.0%2Bcu13-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.2.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "url": "https://github.com/snw35/sageattention-wheel/releases/download/cu12-2.2.0-cu13-2.2.0/sageattention-2.2.0%2Bcu13-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.2.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "url": "https://github.com/snw35/sageattention-wheel/releases/download/cu12-2.2.0-cu13-2.2.0/sageattention-2.2.0%2Bcu13-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.2.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "url": "https://github.com/snw35/sageattention-wheel/releases/download/cu12-2.2.0-cu13-2.2.0/sageattention-2.2.0%2Bcu13-cp314-cp314-linux_x86_64.whl"
+        }
+      ]
+    },
+    {
+      "id": "natten",
+      "name": "NATTEN",
+      "description": "Neighborhood Attention Extension for vision models",
+      "official_repo": "https://github.com/SHI-Labs/NATTEN",
+      "sources": [
+        {
+          "name": "SHI-Labs GitHub Releases",
+          "url": "https://github.com/SHI-Labs/NATTEN/releases"
+        }
+      ],
+      "wheels": [
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu126-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu126-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu126-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu126-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu126-cp313-cp313t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu126-cp314-cp314-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu126-cp314-cp314t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu128-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu128-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu128-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu128-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu128-cp313-cp313t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu128-cp314-cp314-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu128-cp314-cp314t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu130-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu130-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu130-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu130-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu130-cp313-cp313t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu130-cp314-cp314-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2100cu130-cp314-cp314t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu126-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu126-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu126-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu126-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu126-cp313-cp313t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu126-cp314-cp314-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu126-cp314-cp314t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu128-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu128-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu128-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu128-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu128-cp313-cp313t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu128-cp314-cp314-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu128-cp314-cp314t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu130-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu130-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu130-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu130-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu130-cp313-cp313t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu130-cp314-cp314-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2110cu130-cp314-cp314t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu126-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu126-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu126-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu126-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu126-cp313-cp313t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu126-cp314-cp314-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu126-cp314-cp314t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu130-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu130-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu130-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu130-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu130-cp313-cp313t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu130-cp314-cp314-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu130-cp314-cp314t-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "13.2",
+            "13.2"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu132-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "13.2",
+            "13.2"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu132-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.2",
+            "13.2"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu132-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "13.2",
+            "13.2"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu132-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "13.2",
+            "13.2"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu132-cp314-cp314-linux_x86_64.whl"
+        },
+        {
+          "package_version": "0.21.6",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.14",
+            "3.14"
+          ],
+          "cuda_version": [
+            "13.2",
+            "13.2"
+          ],
+          "url": "https://github.com/SHI-Labs/NATTEN/releases/download/v0.21.6/natten-0.21.6%2Btorch2120cu132-cp314-cp314t-linux_x86_64.whl"
+        }
+      ]
+    },
+    {
+      "id": "causalconv1d",
+      "name": "Causal Conv1d",
+      "description": "Causal depthwise conv1d in CUDA (Mamba dependency)",
+      "official_repo": "https://github.com/Dao-AILab/causal-conv1d",
+      "sources": [
+        {
+          "name": "Dao-AILab GitHub Releases",
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases"
+        }
+      ],
+      "wheels": [
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "11.x",
+            "11.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "11.x",
+            "11.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "11.x",
+            "11.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "11.x",
+            "11.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiFALSE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "11.x",
+            "11.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "11.x",
+            "11.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "11.x",
+            "11.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "11.x",
+            "11.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiTRUE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "11.x",
+            "11.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.7cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "11.x",
+            "11.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "11.x",
+            "11.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "11.x",
+            "11.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.7cxx11abiTRUE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": false,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiFALSE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiTRUE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.x",
+            "12.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp311-cp311-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp313-cp313-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "25.11",
+            "25.11"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch25.11cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "25.12",
+            "25.12"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch25.12cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "26.01",
+            "26.01"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch26.01cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "26.02",
+            "26.02"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch26.02cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "26.03",
+            "26.03"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch26.03cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        },
+        {
+          "package_version": "1.6.2.post1",
+          "torch_version": [
+            "26.04",
+            "26.04"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "13.x",
+            "13.x"
+          ],
+          "cxx11_abi": true,
+          "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch26.04cxx11abiTRUE-cp312-cp312-linux_x86_64.whl"
+        }
+      ]
+    },
+    {
+      "id": "flashattention3",
+      "name": "Flash Attention 3",
+      "description": "Flash Attention 3 \u2014 optimized for Hopper GPUs (H100/H200), Python 3.9+ compatible (abi3)",
+      "official_repo": "https://github.com/Dao-AILab/flash-attention",
+      "sources": [
+        {
+          "name": "mjun0812 Prebuilt Wheels",
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases"
+        }
+      ],
+      "wheels": [
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.18/flash_attn_3-3.0.0%2Bcu126torch2.12gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.18/flash_attn_3-3.0.0%2Bcu130torch2.12gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.12",
+            "2.12"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "13.2",
+            "13.2"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.18/flash_attn_3-3.0.0%2Bcu132torch2.12gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.13",
+            "2.13"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.47/flash_attn_3-3.0.0%2Bcu126torch2.13gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.13",
+            "2.13"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "13.0",
+            "13.0"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.47/flash_attn_3-3.0.0%2Bcu130torch2.13gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.13",
+            "2.13"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "13.2",
+            "13.2"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.47/flash_attn_3-3.0.0%2Bcu132torch2.13gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.5",
+            "2.5"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "12.4",
+            "12.4"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.29/flash_attn_3-3.0.0%2Bcu124torch2.5gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "12.4",
+            "12.4"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.29/flash_attn_3-3.0.0%2Bcu124torch2.6gite2743ab-cp39-abi3-linux_x86_64.whl"
+        },
+        {
+          "package_version": "3.0.0",
+          "torch_version": [
+            "2.6",
+            "2.6"
+          ],
+          "python_version": [
+            "3.9+",
+            "3.9+"
+          ],
+          "cuda_version": [
+            "12.6",
+            "12.6"
+          ],
+          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.9.29/flash_attn_3-3.0.0%2Bcu126torch2.6gite2743ab-cp39-abi3-linux_x86_64.whl"
+        }
+      ]
+    },
+    {
+      "id": "torchaudio",
+      "name": "Torchaudio",
+      "description": "PyTorch audio library \u2014 version must match your torch version (Linux x86_64 + macOS arm64)",
+      "official_repo": "https://github.com/pytorch/audio",
+      "sources": [
+        {
+          "name": "PyPI",
+          "url": "https://pypi.org/project/torchaudio/"
+        }
+      ],
+      "wheels": [
+        {
+          "package_version": "2.9.1",
+          "torch_version": [
+            "2.9.1",
+            "2.9.1"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/c1/ee/d71e6d78d203d72f99c426fbbf2bcd801cf084d8f1891bb1f42c95bc5ec5/torchaudio-2.9.1-cp310-cp310-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.1",
+          "torch_version": [
+            "2.9.1",
+            "2.9.1"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/cb/6f/d8f1f36c9f63ddef78f00f8f8ddb9638128ceb5f6824c28bead5af48fc63/torchaudio-2.9.1-cp311-cp311-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.1",
+          "torch_version": [
+            "2.9.1",
+            "2.9.1"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/fe/0d/b5af1d55ede1ca07769a2cf71256073d8958e2a5521fc734fc19f5343283/torchaudio-2.9.1-cp312-cp312-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.1",
+          "torch_version": [
+            "2.9.1",
+            "2.9.1"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/74/d3/0b090c03cac5a20691507e0945589a696fb10402ccd2457eea47dbf8a71b/torchaudio-2.9.1-cp313-cp313-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.0",
+          "torch_version": [
+            "2.9.0",
+            "2.9.0"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/39/27/75184741da9aa1e94ec136319781e1275a560d1c311a293cc22aba747863/torchaudio-2.9.0-cp310-cp310-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.0",
+          "torch_version": [
+            "2.9.0",
+            "2.9.0"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/f0/41/7aba77bc89d06df993c1519b66b7e0b09661d297d0eb8c044ab2c5af665f/torchaudio-2.9.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.0",
+          "torch_version": [
+            "2.9.0",
+            "2.9.0"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/f0/9c/58b8b49dfba2ae85e41ca86b0c52de45bbbea01987490de219c99c523a58/torchaudio-2.9.0-cp312-cp312-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.0",
+          "torch_version": [
+            "2.9.0",
+            "2.9.0"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/26/db/10ba200f90b76f7b859f46b5ba30cdded69f71bcb0fe3c59bb215532cd2b/torchaudio-2.9.0-cp313-cp313-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/d8/f5/69db76b564263f22c1788cc298ab1c4e2391a79fa8ba7b4a3e76d945292a/torchaudio-2.8.0-cp310-cp310-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/b6/ef/62ac736d8f906cc414181050e08a495a637dab985186c34bd76ea37efbc0/torchaudio-2.8.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/c2/a6/84d80f34472503e9eb82245d7df501c59602d75d7360e717fb9b84f91c5e/torchaudio-2.8.0-cp312-cp312-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/49/df/61941198e9ac6bcebfdd57e1836e4f3c23409308e3d8d7458f0198a6a366/torchaudio-2.8.0-cp313-cp313-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/6b/a4/fab5dbbb2720fc775656b6a81f4daace069ff28a008a73d1b99e0fa995a2/torchaudio-2.8.0-cp39-cp39-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/7d/dc/7569889c1fc95ebf18b0295bc4fdebafbbb89ba9e0018c7e9b0844bae011/torchaudio-2.7.1-cp310-cp310-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/0d/c5/8ba8869ac5607bbd83ea864bda2c628f8b7b55a9200f8147687995e95a49/torchaudio-2.7.1-cp311-cp311-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/48/65/0f46ba74cdc67ea9a8c37c8acfb5194d81639e481e85903c076bcd97188c/torchaudio-2.7.1-cp312-cp312-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/bb/ab/83f282ca5475ae34c58520a4a97b6d69438bc699d70d16432deb19791cda/torchaudio-2.7.1-cp313-cp313-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/37/7b/0bf5da00d883b241bd4986e2d26dc1aabd16cc860c4c5d4bc9237e6350c3/torchaudio-2.7.1-cp39-cp39-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/f2/df/ee0097fc41f718152026541c4c6cdeea830bc09903cc36a53037942a6d3d/torchaudio-2.7.0-cp310-cp310-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/ab/20/1873a49df9f1778c241543eaca14d613d657b9f9351c254952114251cb86/torchaudio-2.7.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/78/98/ec8c7aba67b44cdc59717d4b43d02023ded5da180d33c6469d20bf5bfa3c/torchaudio-2.7.0-cp312-cp312-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/12/02/ad1083f6ce534989c704c3efcd615bdd160934229882aa0a3ea95cd24a9a/torchaudio-2.7.0-cp313-cp313-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "any",
+            "any"
+          ],
+          "url": "https://files.pythonhosted.org/packages/82/1c/f278a0f994f80d1de2f1af092f1e876a4f7d34dc3c9f56d69e4a0dc6c45a/torchaudio-2.7.0-cp39-cp39-manylinux_2_28_x86_64.whl"
+        },
+        {
+          "package_version": "2.9.1",
+          "torch_version": [
+            "2.9.1",
+            "2.9.1"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/1c/87/7de58c8f4c1946ec4d9070354eae73d1e4f3d2426e5cfa45febbd8451ce5/torchaudio-2.9.1-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.9.1",
+          "torch_version": [
+            "2.9.1",
+            "2.9.1"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/3f/6b/34e489fcb4adc4b571a166f2670cc7f156cbe3337867a892fade0a1a5224/torchaudio-2.9.1-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.9.1",
+          "torch_version": [
+            "2.9.1",
+            "2.9.1"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/f1/83/71cbadd7b66753818b5775f2088bad4f721d581de276996df4968000a626/torchaudio-2.9.1-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.9.1",
+          "torch_version": [
+            "2.9.1",
+            "2.9.1"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/c0/1b/3321ad6379ac2d968064704e8d015c31ccae5d1ece070f87fb44b17d90e6/torchaudio-2.9.1-cp313-cp313-macosx_12_0_arm64.whl"
+        },
+        {
+          "package_version": "2.9.0",
+          "torch_version": [
+            "2.9.0",
+            "2.9.0"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/78/aa/7fce684dc0e21f8ea3ecf4a9f37253f8fa0b51aa0973202b58f33b9dc031/torchaudio-2.9.0-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.9.0",
+          "torch_version": [
+            "2.9.0",
+            "2.9.0"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/d5/a2/7696b9579ad0c40b78ce2774fb24875c43257f3d0d24540e1cfa946c13b4/torchaudio-2.9.0-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.9.0",
+          "torch_version": [
+            "2.9.0",
+            "2.9.0"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/b7/63/3c0ede3aa3d19a8a6698ddd107fa88660549360b51bf8ce2717cd498d800/torchaudio-2.9.0-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.9.0",
+          "torch_version": [
+            "2.9.0",
+            "2.9.0"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/6c/66/974371d4e4042d186931b72365817d9d3a509f2bc570888a48612448c060/torchaudio-2.9.0-cp313-cp313-macosx_12_0_arm64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/30/81/92d34ff136b17ddda872f6d8149f2ca927ad53a37ae26d02cb5f66435772/torchaudio-2.8.0-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/dd/bf/6b01ef3defb8d0a772c863588711e9b2b011c27d6b37c1b9d15a359c8442/torchaudio-2.8.0-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/ac/cc/c2e2a3eb6ee956f73c68541e439916f8146170ea9cc61e72adea5c995312/torchaudio-2.8.0-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/3b/ea/2a68259c4dbb5fe44ebfdcfa40b115010d8c677221a7ef0f5577f3c4f5f1/torchaudio-2.8.0-cp313-cp313-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.8.0",
+          "torch_version": [
+            "2.8.0",
+            "2.8.0"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/98/53/22f70997e909e712ede5625ed7612ec093eaf11e1af77cf7d44124edd3d7/torchaudio-2.8.0-cp39-cp39-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/da/71/bfc6d2b28ede6c4c5446901cfa4d98fa25b2606eb12e641baccec16fcde0/torchaudio-2.7.1-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/85/a2/52e6760d352584ae1ab139d97647bdc51d1eb7d480b688fe69c72616c956/torchaudio-2.7.1-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/0b/d1/eb8bc3b3502dddb1b789567b7b19668b1d32817266887b9f381494cfe463/torchaudio-2.7.1-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/b6/ee/6e308868b9467e1b51da9d781cb73dd5aadca7c8b6256f88ce5d18a7fb77/torchaudio-2.7.1-cp313-cp313-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.7.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/3b/67/82ee183a867d5138b594a5c07be403d8efd0e010b3ea8a7e135058e965cd/torchaudio-2.7.1-cp39-cp39-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/34/26/abc66c79092ad2eaaade546dc93e23d99ddf2513988261b943d274f5c01a/torchaudio-2.7.0-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/6e/d6/27deb8862ecc005c95a5c64bcc8cc27c74878eb8d4162ce4d39b35ea9e27/torchaudio-2.7.0-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/dd/b9/66dd7c4e16e8e6dcc52b4702ba7bbace589972b3597627d39d9dc3aa5fdd/torchaudio-2.7.0-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/c1/a5/bc4bb6b254d3d77e9fa4d219f29d3bff8db92acc9004c27e875f32d4724a/torchaudio-2.7.0-cp313-cp313-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.7.0",
+          "torch_version": [
+            "2.7.0",
+            "2.7.0"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/9e/f4/d47c123b51c67fdaf04041889b2e00fe9a00212e574602955a96fed62ad2/torchaudio-2.7.0-cp39-cp39-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.6.0",
+          "torch_version": [
+            "2.6.0",
+            "2.6.0"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/38/aa/f634960ac094e3fc6869f5c214ccfa6f74da2b1a89cefac024f6c650a717/torchaudio-2.6.0-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.6.0",
+          "torch_version": [
+            "2.6.0",
+            "2.6.0"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/a9/30/bba293c8300245a09b7f82d3cfc04aee1950228da49c6cdd637d1145b6f5/torchaudio-2.6.0-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.6.0",
+          "torch_version": [
+            "2.6.0",
+            "2.6.0"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/ac/4a/d71b932bda4171970bdf4997541b5c778daa0e2967ed5009d207fca86ded/torchaudio-2.6.0-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.6.0",
+          "torch_version": [
+            "2.6.0",
+            "2.6.0"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/fb/73/861afa5864e95fbf42b693e0359b2bf0177b6b5f4274fa4472fd51e5298e/torchaudio-2.6.0-cp313-cp313-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.6.0",
+          "torch_version": [
+            "2.6.0",
+            "2.6.0"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/d3/d3/81b8b800bac7149aba7996352af9dd66cbade3a83b5127fa3e8cfa98d38d/torchaudio-2.6.0-cp39-cp39-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.5.1",
+          "torch_version": [
+            "2.5.1",
+            "2.5.1"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/b3/db/246930ba5933a9f6ce8e2cca7086924487286a0bf7d8d28aeb354e8b0504/torchaudio-2.5.1-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.5.1",
+          "torch_version": [
+            "2.5.1",
+            "2.5.1"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/6a/97/1780e3dd8733da30ff1051b8cbd8006e4824b76028558a58c31e790c09cd/torchaudio-2.5.1-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.5.1",
+          "torch_version": [
+            "2.5.1",
+            "2.5.1"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/03/ab/151037a41e2cf4a5d489dfe5e7196b755e0fd83958d5ca7ad8ed85afcb1c/torchaudio-2.5.1-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.5.1",
+          "torch_version": [
+            "2.5.1",
+            "2.5.1"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/13/a0/43a7b3bd4f19bb2ca46e44aee83cba6cb1450f3126d9615f30ac51db24ec/torchaudio-2.5.1-cp39-cp39-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.5.0",
+          "torch_version": [
+            "2.5.0",
+            "2.5.0"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/b3/a8/a485ba8015794aa6a5e042469e0be1d6ca4930c391e78945d25d7a9c8310/torchaudio-2.5.0-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.5.0",
+          "torch_version": [
+            "2.5.0",
+            "2.5.0"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/bb/e1/fd1fa394941d8f1b093a8b8842b9a31a17e313b4a29c3f53b6cbcfb75bb7/torchaudio-2.5.0-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.5.0",
+          "torch_version": [
+            "2.5.0",
+            "2.5.0"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/71/26/f1ac135bfb26d5073660c6e93e271046a2dd42cc7b79875dc0b6459a3aae/torchaudio-2.5.0-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.5.0",
+          "torch_version": [
+            "2.5.0",
+            "2.5.0"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/9d/56/70d5e62d1d8f3743bc0c7e67ac601ce03014e2586041c4a871007fc968a3/torchaudio-2.5.0-cp39-cp39-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.4.1",
+          "torch_version": [
+            "2.4.1",
+            "2.4.1"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/55/22/a19bdd21fb79bc45602883712ef0beb46f67f45e9bd7af1693519b68f89f/torchaudio-2.4.1-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.4.1",
+          "torch_version": [
+            "2.4.1",
+            "2.4.1"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/bb/28/4fddff9db2d0c5fb1c764a56d69ebe42858c388d1c2a1224cc5f3309def4/torchaudio-2.4.1-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.4.1",
+          "torch_version": [
+            "2.4.1",
+            "2.4.1"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/f7/63/ca0921398395834db67c52e2a0d0a4edec8077875c8ef825cb1ef81b86f7/torchaudio-2.4.1-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.4.1",
+          "torch_version": [
+            "2.4.1",
+            "2.4.1"
+          ],
+          "python_version": [
+            "3.8",
+            "3.8"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/26/ca/9b5c04754898d20ebdded3057465684236bc06697aeaa1a5df7dbcfaf0bc/torchaudio-2.4.1-cp38-cp38-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.4.1",
+          "torch_version": [
+            "2.4.1",
+            "2.4.1"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/6f/48/8748fe9155718a168c2f9357397e910ec5bd78620b6f7b9f986daf874485/torchaudio-2.4.1-cp39-cp39-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.4.0",
+          "torch_version": [
+            "2.4.0",
+            "2.4.0"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/e0/5b/cc0ab8d15291d4b14a2ce740c7b46483c356f060eb98dc9a68171230cadc/torchaudio-2.4.0-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.4.0",
+          "torch_version": [
+            "2.4.0",
+            "2.4.0"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/1b/11/9c38a2da79d79611fd6950837f5389bac55c6fdfbc1b4ceab6d2afd8b0d4/torchaudio-2.4.0-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.4.0",
+          "torch_version": [
+            "2.4.0",
+            "2.4.0"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/cf/1e/2139b508cb4716f98b972d8fd76084277d57faa5face86b007c495da52ac/torchaudio-2.4.0-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.4.0",
+          "torch_version": [
+            "2.4.0",
+            "2.4.0"
+          ],
+          "python_version": [
+            "3.8",
+            "3.8"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/c5/26/6db849939779d02d77623a59a51e006ca3666def1e589ea292c91eeebb5c/torchaudio-2.4.0-cp38-cp38-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "2.4.0",
+          "torch_version": [
+            "2.4.0",
+            "2.4.0"
+          ],
+          "python_version": [
+            "3.9",
+            "3.9"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/79/21/bb5392ce546e5d371c4a6d812d464f76066cda79757732c98fd366d104a5/torchaudio-2.4.0-cp39-cp39-macosx_11_0_arm64.whl"
+        }
+      ]
+    },
+    {
+      "id": "torchvision",
+      "name": "Torchvision",
+      "description": "PyTorch computer vision library \u2014 version must match your torch version (macOS arm64)",
+      "official_repo": "https://github.com/pytorch/vision",
+      "sources": [
+        {
+          "name": "PyPI",
+          "url": "https://pypi.org/project/torchvision/"
+        }
+      ],
+      "wheels": [
+        {
+          "package_version": "0.28.0",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/b4/df/1ba039ad6cfe6e69209c36766b9b6e8c6fe92481c6d4e4ca52296f5f699d/torchvision-0.28.0-cp310-cp310-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.28.0",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/7a/b2/1e010052079e4c577007b789db336ea7075f1a426e84d17121fbc3745516/torchvision-0.28.0-cp311-cp311-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.28.0",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/15/49/c1cab1ecbb3ff1a380a3f99283db1dee61b8afe354f6352c643b65937130/torchvision-0.28.0-cp312-cp312-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.28.0",
+          "torch_version": [
+            "2.11",
+            "2.11"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/20/55/08a726c14c67b37c8aca04b077766909f1c7ed23f76116884fe63b9bd033/torchvision-0.28.0-cp313-cp313-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.27.1",
+          "torch_version": [
+            "2.10.1",
+            "2.10.1"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/c9/10/8e3e5a70dded1f86368bc987d93fa0436e73a79060aead75a8783b040ebd/torchvision-0.27.1-cp310-cp310-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.27.1",
+          "torch_version": [
+            "2.10.1",
+            "2.10.1"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/64/46/bc0ebd93282aeedc1759f054a252c6fadf14b42a0535db3233c85cce4ae5/torchvision-0.27.1-cp311-cp311-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.27.1",
+          "torch_version": [
+            "2.10.1",
+            "2.10.1"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/88/82/2e8fdc19e4f0bbe31d403a55d78318bcea4afcd3083e1e4700ef61ebb893/torchvision-0.27.1-cp312-cp312-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.27.1",
+          "torch_version": [
+            "2.10.1",
+            "2.10.1"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/32/bb/b21e0f598ca191bb2a9e9fda2fee37c06ad113313b43c6769dbefa0e921d/torchvision-0.27.1-cp313-cp313-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.27.0",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/13/15/2df874db140bbfe42f377e05e2dd38f2b9dc88414a6607eecc42073b2baa/torchvision-0.27.0-cp310-cp310-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.27.0",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/cf/d6/a7e71e981042d5c573e2e61891b9023b190c88adb75b18bed8594371250c/torchvision-0.27.0-cp311-cp311-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.27.0",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/9e/c8/5cd91932f7f3671b0743dc4ae1a4c16b1d0b45bf4087976277d325bda718/torchvision-0.27.0-cp312-cp312-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.27.0",
+          "torch_version": [
+            "2.10",
+            "2.10"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/d8/ae/36547812e6e047c1d80bcacd1b17a340612b08a6e876e0aabf3d0b9228b0/torchvision-0.27.0-cp313-cp313-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.26.0",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/74/b4/cdfee31e0402ea035135462cb0ab496e974d56fab6b4e7a1f0cbccb8cd28/torchvision-0.26.0-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "0.26.0",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/b4/bd/d552a2521bade3295b2c6e7a4a0d1022261cab7ca7011f4e2a330dbb3caa/torchvision-0.26.0-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "0.26.0",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/ae/e7/56b47cc3b132aea90ccce22bcb8975dec688b002150012acc842846039d0/torchvision-0.26.0-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "0.26.0",
+          "torch_version": [
+            "2.9",
+            "2.9"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/da/80/0762f77f53605d10c9477be39bb47722cc8e383bbbc2531471ce0e396c07/torchvision-0.26.0-cp313-cp313-macosx_12_0_arm64.whl"
+        },
+        {
+          "package_version": "0.25.0",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/50/ae/cbf727421eb73f1cf907fbe5788326a08f111b3f6b6ddca15426b53fec9a/torchvision-0.25.0-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "0.25.0",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/3e/be/c704bceaf11c4f6b19d64337a34a877fcdfe3bd68160a8c9ae9bea4a35a3/torchvision-0.25.0-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "0.25.0",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/56/3a/6ea0d73f49a9bef38a1b3a92e8dd455cea58470985d25635beab93841748/torchvision-0.25.0-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "0.25.0",
+          "torch_version": [
+            "2.8",
+            "2.8"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/f5/5b/1562a04a6a5a4cf8cf40016a0cdeda91ede75d6962cff7f809a85ae966a5/torchvision-0.25.0-cp313-cp313-macosx_12_0_arm64.whl"
+        },
+        {
+          "package_version": "0.24.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/f7/09/d51aadf8591138e08b74c64a6eb783630c7a31ca2634416277115a9c3a2b/torchvision-0.24.1-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "0.24.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/e7/69/30f5f03752aa1a7c23931d2519b31e557f3f10af5089d787cddf3b903ecf/torchvision-0.24.1-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "0.24.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/f0/af/18e2c6b9538a045f60718a0c5a058908ccb24f88fde8e6f0fc12d5ff7bd3/torchvision-0.24.1-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "0.24.1",
+          "torch_version": [
+            "2.7.1",
+            "2.7.1"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/e4/97/ab40550f482577f2788304c27220e8ba02c63313bd74cf2f8920526aac20/torchvision-0.24.1-cp313-cp313-macosx_12_0_arm64.whl"
+        },
+        {
+          "package_version": "0.24.0",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/63/5b/1404eeab00819df71a30e916c2081654366741f7838fcc4fff86b7bd9e7e/torchvision-0.24.0-cp310-cp310-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "0.24.0",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/a3/17/54ed2ec6944ea972b461a86424c8c7f98835982c90cbc45bf59bd962863a/torchvision-0.24.0-cp311-cp311-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "0.24.0",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/47/ef/81e4e69e02e2c4650b30e8c11c8974f946682a30e0ab7e9803a831beff76/torchvision-0.24.0-cp312-cp312-macosx_11_0_arm64.whl"
+        },
+        {
+          "package_version": "0.24.0",
+          "torch_version": [
+            "2.7",
+            "2.7"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/4f/b5/b2008e4b77a8d6aada828dd0f6a438d8f94befa23fdd2d62fa0ac6e60113/torchvision-0.24.0-cp313-cp313-macosx_12_0_arm64.whl"
+        }
+      ]
+    },
+    {
+      "id": "mlx",
+      "name": "MLX",
+      "description": "Apple's ML framework for Apple Silicon (Metal GPU) \u2014 the macOS alternative to CUDA-accelerated inference",
+      "official_repo": "https://github.com/ml-explore/mlx",
+      "sources": [
+        {
+          "name": "PyPI",
+          "url": "https://pypi.org/project/mlx/"
+        }
+      ],
+      "wheels": [
+        {
+          "package_version": "0.32.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.10",
+            "3.10"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/df/38/a034159df4d21ef7b5721225a2c46092e20a2c627724f57be3e89fa7dbce/mlx-0.32.0-cp310-cp310-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.32.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.11",
+            "3.11"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/3e/c7/cb62301b01dbccd66b256cab0c98fc29e7533dd76aa599fe44c1bb1f4168/mlx-0.32.0-cp311-cp311-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.32.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.12",
+            "3.12"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/aa/a6/489176d8a2a06137a299910057cc44dc3fccfb73151f7562fea2b75894d9/mlx-0.32.0-cp312-cp312-macosx_14_0_arm64.whl"
+        },
+        {
+          "package_version": "0.32.0",
+          "torch_version": [
+            "any",
+            "any"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "none",
+            "none"
+          ],
+          "platform": "macos_arm64",
+          "url": "https://files.pythonhosted.org/packages/b6/be/ddc888d4a20c7602da06ad1a244f495010c6c7d2457f6253e8fa3c99ceea/mlx-0.32.0-cp313-cp313-macosx_14_0_arm64.whl"
+        }
+      ]
+    }
+  ]
+}
