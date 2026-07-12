@@ -1,19 +1,15 @@
 {
-  "last_updated_utc": "2026-07-12T06:25:03.369416+00:00",
+  "last_updated_utc": "2026-07-12T06:32:05.872682+00:00",
   "packages": [
     {
       "id": "flashattention",
       "name": "Flash Attention",
-      "description": "Fast and memory-efficient exact attention (Linux builds from official Dao-AILab releases)",
+      "description": "Fast and memory-efficient exact attention",
       "official_repo": "https://github.com/Dao-AILab/flash-attention",
       "sources": [
         {
           "name": "Dao-AILab GitHub Releases",
           "url": "https://github.com/Dao-AILab/flash-attention/releases"
-        },
-        {
-          "name": "mjun0812 GitHub",
-          "url": "https://github.com/mjun0812/flash-attention-prebuild-wheels"
         }
       ],
       "wheels": [
@@ -92,8 +88,8 @@
             "2.4"
           ],
           "python_version": [
-            "3.39",
-            "3.39"
+            "3.9",
+            "3.9"
           ],
           "cuda_version": [
             "12.x",
@@ -160,8 +156,8 @@
             "2.4"
           ],
           "python_version": [
-            "3.39",
-            "3.39"
+            "3.9",
+            "3.9"
           ],
           "cuda_version": [
             "12.x",
@@ -245,8 +241,8 @@
             "2.5"
           ],
           "python_version": [
-            "3.39",
-            "3.39"
+            "3.9",
+            "3.9"
           ],
           "cuda_version": [
             "12.x",
@@ -330,8 +326,8 @@
             "2.5"
           ],
           "python_version": [
-            "3.39",
-            "3.39"
+            "3.9",
+            "3.9"
           ],
           "cuda_version": [
             "12.x",
@@ -415,8 +411,8 @@
             "2.6"
           ],
           "python_version": [
-            "3.39",
-            "3.39"
+            "3.9",
+            "3.9"
           ],
           "cuda_version": [
             "12.x",
@@ -500,8 +496,8 @@
             "2.6"
           ],
           "python_version": [
-            "3.39",
-            "3.39"
+            "3.9",
+            "3.9"
           ],
           "cuda_version": [
             "12.x",
@@ -585,8 +581,8 @@
             "2.7"
           ],
           "python_version": [
-            "3.39",
-            "3.39"
+            "3.9",
+            "3.9"
           ],
           "cuda_version": [
             "12.x",
@@ -670,8 +666,8 @@
             "2.7"
           ],
           "python_version": [
-            "3.39",
-            "3.39"
+            "3.9",
+            "3.9"
           ],
           "cuda_version": [
             "12.x",
@@ -755,8 +751,8 @@
             "2.8"
           ],
           "python_version": [
-            "3.39",
-            "3.39"
+            "3.9",
+            "3.9"
           ],
           "cuda_version": [
             "12.x",
@@ -840,8 +836,8 @@
             "2.8"
           ],
           "python_version": [
-            "3.39",
-            "3.39"
+            "3.9",
+            "3.9"
           ],
           "cuda_version": [
             "12.x",
@@ -855,7 +851,7 @@
     {
       "id": "nunchaku",
       "name": "Nunchaku",
-      "description": "SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models",
+      "description": "SVDQuant: 4-Bit Diffusion Models via Low-Rank Outlier Absorption",
       "official_repo": "https://github.com/mit-han-lab/nunchaku",
       "sources": [
         {
@@ -1317,11 +1313,11 @@
     {
       "id": "sageattention",
       "name": "SageAttention",
-      "description": "Accurate and efficient attention kernel for Linux (from snw35/sageattention-wheel)",
+      "description": "Accurate and efficient attention for Linux/CUDA",
       "official_repo": "https://github.com/thu-ml/SageAttention",
       "sources": [
         {
-          "name": "snw35 GitHub Releases (Linux)",
+          "name": "snw35/sageattention-wheel (Linux)",
           "url": "https://github.com/snw35/sageattention-wheel/releases"
         }
       ],
@@ -1413,8 +1409,8 @@
             "any"
           ],
           "python_version": [
-            "3.39",
-            "3.39"
+            "3.9",
+            "3.9"
           ],
           "cuda_version": [
             "12.x",
@@ -1507,7 +1503,7 @@
     {
       "id": "natten",
       "name": "NATTEN",
-      "description": "Neighborhood Attention Extension \u2014 fast multi-dimensional attention for vision models",
+      "description": "Neighborhood Attention Extension for vision models",
       "official_repo": "https://github.com/SHI-Labs/NATTEN",
       "sources": [
         {
@@ -1519,8 +1515,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.10",
@@ -1535,8 +1531,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.11",
@@ -1551,8 +1547,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.12",
@@ -1567,8 +1563,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.13",
@@ -1583,8 +1579,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.13",
@@ -1599,8 +1595,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.14",
@@ -1615,8 +1611,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.14",
@@ -1631,8 +1627,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.10",
@@ -1647,8 +1643,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.11",
@@ -1663,8 +1659,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.12",
@@ -1679,8 +1675,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.13",
@@ -1695,8 +1691,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.13",
@@ -1711,8 +1707,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.14",
@@ -1727,8 +1723,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.14",
@@ -1743,8 +1739,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.10",
@@ -1759,8 +1755,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.11",
@@ -1775,8 +1771,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.12",
@@ -1791,8 +1787,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.13",
@@ -1807,8 +1803,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.13",
@@ -1823,8 +1819,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.14",
@@ -1839,8 +1835,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.10.0",
-            "2.10.0"
+            "2.10",
+            "2.10"
           ],
           "python_version": [
             "3.14",
@@ -1855,8 +1851,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.10",
@@ -1871,8 +1867,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.11",
@@ -1887,8 +1883,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.12",
@@ -1903,8 +1899,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.13",
@@ -1919,8 +1915,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.13",
@@ -1935,8 +1931,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.14",
@@ -1951,8 +1947,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.14",
@@ -1967,8 +1963,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.10",
@@ -1983,8 +1979,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.11",
@@ -1999,8 +1995,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.12",
@@ -2015,8 +2011,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.13",
@@ -2031,8 +2027,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.13",
@@ -2047,8 +2043,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.14",
@@ -2063,8 +2059,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.14",
@@ -2079,8 +2075,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.10",
@@ -2095,8 +2091,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.11",
@@ -2111,8 +2107,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.12",
@@ -2127,8 +2123,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.13",
@@ -2143,8 +2139,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.13",
@@ -2159,8 +2155,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.14",
@@ -2175,8 +2171,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.11.0",
-            "2.11.0"
+            "2.11",
+            "2.11"
           ],
           "python_version": [
             "3.14",
@@ -2191,8 +2187,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.10",
@@ -2207,8 +2203,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.11",
@@ -2223,8 +2219,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.12",
@@ -2239,8 +2235,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.13",
@@ -2255,8 +2251,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.13",
@@ -2271,8 +2267,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.14",
@@ -2287,8 +2283,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.14",
@@ -2303,8 +2299,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.10",
@@ -2319,8 +2315,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.11",
@@ -2335,8 +2331,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.12",
@@ -2351,8 +2347,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.13",
@@ -2367,8 +2363,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.13",
@@ -2383,8 +2379,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.14",
@@ -2399,8 +2395,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.14",
@@ -2415,8 +2411,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.10",
@@ -2431,8 +2427,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.11",
@@ -2447,8 +2443,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.12",
@@ -2463,8 +2459,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.13",
@@ -2479,8 +2475,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.14",
@@ -2495,8 +2491,8 @@
         {
           "package_version": "0.21.6",
           "torch_version": [
-            "2.12.0",
-            "2.12.0"
+            "2.12",
+            "2.12"
           ],
           "python_version": [
             "3.14",
@@ -2513,7 +2509,7 @@
     {
       "id": "causalconv1d",
       "name": "Causal Conv1d",
-      "description": "Causal depthwise conv1d in CUDA \u2014 a dependency of Mamba",
+      "description": "Causal depthwise conv1d in CUDA (Mamba dependency)",
       "official_repo": "https://github.com/Dao-AILab/causal-conv1d",
       "sources": [
         {
