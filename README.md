@@ -2,17 +2,17 @@
 <!-- PROJECT LOGO -->
 <a id="readme-top"></a>
 <div align="center">
-  <h1 align="center">⟪ Windows AI Wheels ⟫</h1>
+  <h1 align="center">⟪ AI Wheels (Linux & macOS) ⟫</h1>
 
-<img src="https://github.com/user-attachments/assets/b5a86223-4134-4c1a-bce9-215c741be45d" alt="AI-windows-whl logo">
+<img src="https://github.com/user-attachments/assets/b5a86223-4134-4c1a-bce9-215c741be45d" alt="AI-wheels logo">
 
   <p align="center">
-    A curated collection of pre-compiled Python wheels for difficult-to-install AI/ML libraries on Windows.
+    A curated collection of pre-compiled Python wheels for difficult-to-install AI/ML libraries on Linux and macOS.
     <br />
     <br />
-    <a href="https://github.com/wildminder/AI-windows-whl/issues/new?labels=bug&template=bug-report---.md">Report a Broken Link</a>
+    <a href="https://github.com/VenimK/Wheels/issues/new?labels=bug&template=bug-report---.md">Report a Broken Link</a>
     ·
-    <a href="https://github.com/wildminder/AI-windows-whl/issues/new?labels=enhancement&template=feature-request---.md">Request a New Wheel</a>
+    <a href="https://github.com/VenimK/Wheels/issues/new?labels=enhancement&template=feature-request---.md">Request a New Wheel</a>
   </p>
 </div>
 
@@ -61,14 +61,14 @@
 <!-- ABOUT THE PROJECT -->
 ## ❯ About The Project
 
-This repository was created to address a common pain point for AI enthusiasts and developers on the Windows platform: **building complex Python packages from source.** Libraries like `flash-attention`, `xformers` are essential for high-performance AI tasks but often lack official pre-built wheels for Windows, forcing users into a complicated and error-prone compilation process.
+This repository was created to address a common pain point for AI enthusiasts and developers on **Linux and macOS**: **building complex Python packages from source.** Libraries like `flash-attention`, `xformers` are essential for high-performance AI tasks but often lack official pre-built wheels, forcing users into a complicated and error-prone compilation process.
 
-The goal here is to provide a centralized, up-to-date collection of direct links to pre-compiled `.whl` files for these libraries, primarily for the **ComfyUI** community and other PyTorch users on Windows. This saves you time and lets you focus on what's important: creating amazing things with AI.
+The goal here is to provide a centralized, up-to-date collection of direct links to pre-compiled `.whl` files for these libraries, primarily for the **ComfyUI** community and other PyTorch users on Linux and macOS. Wheels are built automatically via **GitHub Actions** on Linux (Ubuntu with CUDA) runners. macOS support is planned for packages that don't require CUDA. This saves you time and lets you focus on what's important: creating amazing things with AI.
 
-### ⌬ Find Windows AI Wheels
-To make life even easier, you can use this page **[Find Windows AI Wheels](https://wildminder.github.io/AI-windows-whl/)** for quick searches of the required packages. 
+### ⌬ Find AI Wheels
+To make life even easier, you can use this page **[Find AI Wheels](https://venimk.github.io/Wheels/)** for quick searches of the required packages. 
 <div align="center">
-<a  href="https://wildminder.github.io/AI-windows-whl/">
+<a  href="https://venimk.github.io/Wheels/">
 <img width="70%" alt="image" src="https://github.com/user-attachments/assets/1ee65a8c-c9c1-4e17-8a49-d685bae3f5f2" />
 </a>  
 </div>
@@ -83,7 +83,7 @@ Follow these simple steps to use the wheels from this repository.
 
 ### ⌬ Prerequisites
 
-1.  **Python for Windows**: Ensure you have a compatible Python version installed (PyTorch currently supports **Python 3.9 - 3.14** on Windows). You can get it from the [official Python website](https://www.python.org/downloads/windows/).
+1.  **Python for Linux/macOS**: Ensure you have a compatible Python version installed (PyTorch currently supports **Python 3.9 - 3.14**). You can get it from the [official Python website](https://www.python.org/downloads/) or your system package manager.
 
 
 ### ⌬ Installation
@@ -92,7 +92,7 @@ To install a wheel, use `pip` with the direct URL to the `.whl` file. Make sure 
 
 ```sh
 # Example of installing a specific flash-attention wheel
-pip install "https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4.post1+cu128torch2.7.0cxx11abiFALSE-cp312-cp312-win_amd64.whl"
+pip install "https://huggingface.co/lldacing/flash-attention-windows-wheel/blob/main/flash_attn-2.7.4.post1+cu128torch2.7.0cxx11abiFALSE-cp312-cp312-linux_x86_64.whl"
 ```
 
 > [!TIP]
@@ -583,8 +583,8 @@ Neighborhood Attention Transformer.
 <!-- END_NATTEN_TABLE -->
 <p id="triton" align="center">■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■</p>
 
-### ⌬ Triton (Windows Fork)
-Triton is a language and compiler for writing highly efficient custom deep-learning primitives. Not officially supported on Windows, but a fork provides pre-built wheels.
+### ⌬ Triton
+Triton is a language and compiler for writing highly efficient custom deep-learning primitives. On Linux, Triton is available via PyPI and the official PyTorch index. A Windows fork also exists for Windows users.
 
 [![GitHub](https://img.shields.io/badge/triton--lang-triton--windows-blue?style=flat)](https://github.com/triton-lang/triton-windows)
 
@@ -718,6 +718,45 @@ A lightweight wrapper around CUDA custom functions, particularly for 8-bit optim
 
 
 <p align="center">■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■□■</p>
+
+<!-- BUILDING WHEELS -->
+## ❯ Building Wheels
+
+Wheels are built automatically using **GitHub Actions** on Linux runners with CUDA support.
+
+### ⌬ Manual Build (Flash Attention)
+
+Trigger the **Manual Flash Attention Builder** workflow from the Actions tab with these parameters:
+
+| Parameter | Description | Default |
+|:---|:---|:---:|
+| `flash_attn_version` | Flash Attention version (e.g., `2.8.3`) or `latest` | `latest` |
+| `python_version` | Python version (e.g., `3.13`) | `3.13` |
+| `torch_version` | PyTorch version (e.g., `2.9.0`) | `2.9.0` |
+| `cuda_version` | CUDA version (e.g., `13.0`) | `13.0` |
+
+The built wheel is uploaded as a GitHub Actions artifact.
+
+### ⌬ Reusable Workflows
+
+The repository includes reusable workflows that can be called from other workflows:
+
+- **`reusable-build-linux-flashattn.yml`** — Builds flash-attention wheels on Linux (Ubuntu 22.04 + CUDA)
+- **`reusable-build-linux-sageattn.yml`** — Builds SageAttention wheels on Linux (Ubuntu 22.04 + CUDA)
+- **`reusable-build-macos-stub.yml`** — macOS build stub (disabled; for future CPU-only or MPS packages)
+
+### ⌬ Build Scripts
+
+| Script | Platform | Description |
+|:---|:---|:---|
+| `build_flash_attention_linux.sh` | Linux | Builds and renames flash-attention wheels |
+| `build_sage_attention_linux.sh` | Linux | Builds SageAttention wheels |
+| `get_torch_cuda_version.py` | Cross-platform | Maps CUDA/Torch versions to PyTorch index URLs |
+
+> [!NOTE]
+> flash-attention and SageAttention require NVIDIA CUDA to build. macOS builds are not possible for these packages since macOS does not support CUDA. macOS workflow infrastructure is in place for future packages that support CPU-only or MPS backends.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- DATA ACCESS -->
 ## ❯ Accessing Data Programmatically (wheels.json)
