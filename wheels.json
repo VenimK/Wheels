@@ -1517,6 +1517,22 @@
             "12.8"
           ],
           "url": "https://github.com/VenimK/Wheels/releases/download/sageattention-woct0rdho-linux/sageattention-2.2.0.post5-cp310-cp310-linux_x86_64.whl"
+        },
+        {
+          "package_version": "2.2.0.post5",
+          "torch_version": [
+            "2.9.0",
+            "2.9.0"
+          ],
+          "python_version": [
+            "3.13",
+            "3.13"
+          ],
+          "cuda_version": [
+            "12.8",
+            "12.8"
+          ],
+          "url": "https://github.com/VenimK/Wheels/releases/download/sageattention-woct0rdho-linux-pt2.9.0-cu12.8.1-py3.13/sageattention-2.2.0.post5-cp313-cp313-linux_x86_64.whl"
         }
       ]
     },
