@@ -20,9 +20,9 @@ on:
         required: true
         default: '3.10'
       release_tag:
-        description: 'GitHub release tag to upload to'
-        required: true
-        default: 'sageattention-woct0rdho-linux'
+        description: 'GitHub release tag to upload to (leave empty for auto)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -70,10 +70,19 @@ jobs:
           mkdir -p upload
           cp sageattn-src/dist/*.whl upload/
 
+      - name: Set release tag
+        id: release
+        run: |
+          tag='${{ github.event.inputs.release_tag }}'
+          if [ -z "$tag" ]; then
+            tag="sageattention-woct0rdho-linux-pt${{ github.event.inputs.pytorch_version }}-cu${{ github.event.inputs.cuda_version }}-py${{ github.event.inputs.python_version }}"
+          fi
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+
       - name: Upload to release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: '${{ github.event.inputs.release_tag }}'
+          tag_name: '${{ steps.release.outputs.tag }}'
           files: upload/*.whl
           make_latest: false
         env:
