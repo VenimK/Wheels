@@ -12,9 +12,9 @@ on:
         required: true
         default: '2.10.0'
       cuda_version:
-        description: 'CUDA version (e.g., 12.8)'
+        description: 'CUDA version (e.g., 12.8.1)'
         required: true
-        default: '12.8'
+        default: '12.8.1'
       python_version:
         description: 'Python version for build'
         required: true
@@ -39,18 +39,28 @@ jobs:
         with:
           python-version: '${{ github.event.inputs.python_version }}'
 
+      - name: Normalize CUDA version
+        id: cuda
+        run: |
+          full='${{ github.event.inputs.cuda_version }}'
+          short=$(echo "$full" | cut -d. -f1,2)
+          short_nodot=$(echo "$short" | tr -d '.')
+          echo "full=$full" >> "$GITHUB_OUTPUT"
+          echo "short=$short" >> "$GITHUB_OUTPUT"
+          echo "short_nodot=$short_nodot" >> "$GITHUB_OUTPUT"
+
       - name: Install CUDA
         uses: Jimver/cuda-toolkit@v0.2.24
         with:
-          cuda: '${{ github.event.inputs.cuda_version }}'
+          cuda: '${{ steps.cuda.outputs.full }}'
           method: network
-          non-cuda-dirs: ''
 
       - name: Build wheel
         env:
           SAGE_BRANCH: '${{ github.event.inputs.sage_branch }}'
           PYTORCH_VERSION: '${{ github.event.inputs.pytorch_version }}'
-          CUDA_VERSION: '${{ github.event.inputs.cuda_version }}'
+          CUDA_VERSION: '${{ steps.cuda.outputs.short }}'
+          CUDA_VERSION_SHORT_NODOT: '${{ steps.cuda.outputs.short_nodot }}'
           PYTHON_VERSION: '${{ github.event.inputs.python_version }}'
         run: bash .github/scripts/build_sageattention_woct0rdho_linux.sh
 

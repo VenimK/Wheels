@@ -6,10 +6,11 @@ SAGE_BRANCH="${SAGE_BRANCH:-abi3_stable}"
 PYTHON_VERSION="${PYTHON_VERSION:-3.10}"
 PYTORCH_VERSION="${PYTORCH_VERSION:-2.10.0}"
 CUDA_VERSION="${CUDA_VERSION:-12.8}"
+CUDA_VERSION_SHORT_NODOT="${CUDA_VERSION_SHORT_NODOT:-$(echo "$CUDA_VERSION" | tr -d '.')}"
 CXX11_ABI="${CXX11_ABI:-0}"
 
 # Map short CUDA version to PyTorch index URL
-INDEX_URL="https://download.pytorch.org/whl/cu$(echo "$CUDA_VERSION" | tr -d '.')"
+INDEX_URL="https://download.pytorch.org/whl/cu${CUDA_VERSION_SHORT_NODOT}"
 
 # Clone the fork
 git clone --depth 1 --branch "$SAGE_BRANCH" https://github.com/woct0rdho/SageAttention.git sageattn-src
@@ -21,7 +22,7 @@ export SAGEATTENTION_WHEEL_VERSION_SUFFIX="+cu${CUDA_VERSION}torch${PYTORCH_VERS
 # Install build deps and the exact torch
 pip install --upgrade pip
 pip install --no-cache-dir \
-    "torch==${PYTORCH_VERSION}+cu${CUDA_VERSION}" \
+    "torch==${PYTORCH_VERSION}+cu${CUDA_VERSION_SHORT_NODOT}" \
     numpy packaging pybind11 setuptools wheel \
     --index-url "$INDEX_URL"
 
