@@ -6,7 +6,7 @@ on:
       sage_branch:
         description: 'Branch/tag to build'
         required: true
-        default: 'abi3_stable'
+        default: 'head_dim_256'
       pytorch_version:
         description: 'PyTorch version (e.g., 2.10.0)'
         required: true
