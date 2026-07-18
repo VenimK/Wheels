@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SAGE_VERSION="${SAGE_VERSION:-2.2.0}"
+SAGE_VERSION="${SAGE_VERSION:-2.2.0.post5}"
 SAGE_BRANCH="${SAGE_BRANCH:-head_dim_256}"
 PYTHON_VERSION="${PYTHON_VERSION:-3.10}"
 PYTORCH_VERSION="${PYTORCH_VERSION:-2.10.0}"
@@ -15,6 +15,9 @@ INDEX_URL="https://download.pytorch.org/whl/cu${CUDA_VERSION_SHORT_NODOT}"
 # Clone the fork
 git clone --depth 1 --branch "$SAGE_BRANCH" https://github.com/woct0rdho/SageAttention.git sageattn-src
 cd sageattn-src
+
+# Patch the package version so the produced wheel has the desired name
+sed -i "s/version='2.2.0'/version='${SAGE_VERSION}'/" setup.py
 
 # Set version suffix so we can distinguish this Linux build
 export SAGEATTENTION_WHEEL_VERSION_SUFFIX="+cu${CUDA_VERSION}torch${PYTORCH_VERSION}cxx11abi${CXX11_ABI}"
